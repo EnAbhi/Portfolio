@@ -1,0 +1,398 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+font-family: sans-serif;
+}
+body{
+    background-color: black;
+    width: 100%;
+    min-height: 100vh;
+}
+header{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    padding: 15px 20px;
+    color: white;
+}
+.navitem{
+    display:inline-flex;
+    font-weight: 600;
+    justify-content: space-evenly;
+    margin: 15px 20px;
+    list-style-type:none;
+    padding:5px 25px;
+
+
+}
+.navitem a{
+    color: white;
+    transition: all ease .40s;
+    margin: 0 40px;
+    text-decoration: none;
+
+}
+.navitem a:hover{
+    color: #f9004d;
+}
+
+
+    
+span{
+    color: #f9004d;
+}
+.contact{
+    background-color: #f9004d;
+    color: white;
+    border: 20px;
+    font-size:20px;
+    padding:  11px;
+    border-radius: 20px;
+    font-weight: bold;
+    margin-left: 30;
+    margin-top: -9;
+
+    
+    
+}.contact:hover{
+    transform: scale(1.2);
+}
+.port:hover{
+    transform: scale(1.1);
+}
+.port{
+    margin-left: 5px;
+    margin-top: 7px;
+}
+.main{
+    margin-left:200px;
+    margin-top: 200px;
+    float: left;
+    justify-content:relative;
+}
+.heading{
+    color:white;
+    margin-bottom:10px ;
+    font-size: 50;
+    word-spacing: 10px;
+    letter-spacing: 1px;
+    
+}
+.name{
+    color: #f9004d;
+    font-size: 60;
+}
+.work{
+    color:white;
+    font-size: 30px;
+    word-spacing: 10px;
+    margin-top: 15px;
+}   
+.btn{
+   margin-top: 20px;
+   background-color: #f9004d;
+   color: white;
+   font-size: 20;
+   border-radius: 20px;
+   padding: 6px;
+
+}
+.btn:hover{
+    transform: scale(1.1);
+
+}
+.list{
+    justify-content:space-evenly;
+    display:inline-flex;
+    padding-inline-start: 20px;
+    margin-left: -20px;
+}    
+.image{
+    border-color:#f9004d;
+    
+    height: 500;
+    float:right;
+    width: 40%;
+    margin-top: 100px;
+    margin-right: 50px;
+    margin-left: 3px;
+    
+}
+.pic{
+    width: 40%;
+    margin-left: 130px;
+    margin-top: 100px;
+    height: 600;
+    float: left;
+
+}
+.about{
+    color: aliceblue;
+    border-color: black;
+    margin-left: 840px;
+    margin-right: 100px;
+    margin-top: 200px;
+}
+.text{
+    font-size: 60;
+}
+.space{
+    font-size: 15;
+    word-spacing: 5;
+    letter-spacing: 1px;
+    
+}
+.line{
+    margin-top: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+.button{
+    margin-top: 10px;
+    background-color: #f9004d;
+    color: white;
+    font-size: 20;
+    border-radius: 20px;
+    padding: 6px;
+    margin-left: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+ 
+}
+.button:hover{
+    transform: scale(1.2)
+    
+}
+.skills{
+    color: white;
+    border-color:black;
+    border-style: solid;
+    margin-left: 40%;
+    margin-top: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50;
+}
+    
+    
+.ux{
+    border-style: dashed;
+    border-color: grey;
+    width: 15vw;
+    margin-left: 19%;
+    margin-top: 50px;
+    height: 50%;
+    float: left;
+    border-image: linear-gradient(-45deg,#f9004d,purple,skyblue);
+    border-image-slice:1;
+}
+
+
+
+.web{
+    border-style: dashed;
+    border-color: grey;
+    width: 15vw;
+    margin-left: 20%;
+    margin-top: 50px;
+    height: 50%;
+    float:left ;
+    margin-left:110px;
+    border-image: linear-gradient(-45deg,#f9004d,purple,skyblue);
+    border-image-slice:1;
+    
+}
+.marketing{
+    border-style: dashed;
+    border-color: grey;
+    width: 15vw;
+    margin-left: 30%;
+    margin-top: 50px;
+    height: 50%;
+    margin-left: 110px;
+    float: left;
+    border-image: linear-gradient(-45deg,#f9004d,purple,skyblue);
+    border-image-slice:1;
+    
+}
+.uxpic{
+    border-color: #f9004d;
+   margin-left: 13px;
+    height: 150px;
+}
+.webpic{
+    border-color: #f9004d;
+    margin-left: 13px;
+    height: 150px
+}
+.markpic{
+    border-color: #f9004d;
+    margin-left: 13px;
+    height: 150px
+}
+.skillfont{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    border-color: #f9004d;
+    border-style: dotted;
+    height: 500px;
+    width: 400px;
+    margin-left: 750;
+    margin-top: 100px;
+    border-radius: 100px;
+    border-image: linear-gradient(-45deg,#f9004d,purple,skyblue);
+    border-image-slice:1;
+   
+}
+
+.gradient{
+    margin-left: 3.9vw;
+    margin-top: 1.2vw;
+}
+.gradient1{
+    margin-left: 3.9vw;
+    margin-top: 1.2vw;
+}
+.gradient2{
+    margin-left: 3.5vw;
+    margin-top: 1.2vw;
+}
+.profile{
+    width: 25vw;
+
+}
+.mepng{
+    margin-left: 2vw;
+}
+.mepng:hover{
+    transform: scale(1.1);
+}
+.profile:hover{
+    transform: scale(1.1);
+}
+
+.gradient:hover{
+    transform: scale(1.1);
+} 
+.gradient1:hover{
+    transform: scale(1.1);
+} 
+.gradient2:hover{
+    transform: scale(1.1);
+}
+.abhi{
+    color: whitesmoke;
+    margin-left: 5.1vw;
+    font-size: 25px;
+    margin-top: -10px;
+} 
+.abhi1{
+    color: whitesmoke;
+    margin-left: 5.4vw;
+    font-size:25px;
+    margin-top: -20px;
+}
+    
+.abhi2{
+    color: white;
+    margin-left: 60px;
+    font-size: 19px;
+    border-color: #f9004d;
+  
+    margin-right: 20px;
+    
+} 
+.abhi3{
+    color: white;
+    margin-left: 75px;
+    font-size: 19px;
+    margin-top: -10;
+    
+} 
+.uiline{
+    border-color: #f9004d;
+   margin-top: 20px;
+    height: 240px;
+    color:white;
+    font-weight: 600;
+    text-align: center;
+    
+
+}
+.webline{
+    border-color: #f9004d;
+    
+    height: 240px;
+    color:white;
+    font-weight: 600;
+    text-align: center;
+    margin-top:10
+    
+} 
+.marline{
+    border-color: #f9004d;
+    
+    height: 240px;
+    color:white;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 20px;
+} 
+.conline{
+    color: white;
+    text-align: center;
+    font-family: serif;
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 50px;
+} 
+.usname{
+    color: white;
+    
+
+}
+
+
+.blankarea{
+    width: 93%;
+    margin-top: 5px;
+    height: 35px;
+    border-radius: 5px;
+    font-size: 15px;
+    background-color: black;
+    color: whitesmoke;
+    
+    
+}
+.blanarea{
+    width:100%
+} 
+.consub{
+    width: 30%;
+    height: 30px;
+    font-size: 25px;
+    background-color: #f9004d;
+    border-radius: 20px;
+    color:white;
+    font-family: serif;
+    margin-top: 10%;
+    margin-left: 35%;
+}
+.consub:hover{
+    transform: scale(1.1);
+} 
+.namediv{
+    margin-top: 1;
+    
+} 
+
+.vs2{
+    
+    
+    margin-top:50;
+} 
+.vs3{
+    
+    
+    margin-top: 50;
+} 
